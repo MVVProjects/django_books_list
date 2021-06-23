@@ -8,5 +8,5 @@ pathtools==0.1.2
 patsy==0.5.1
 pep8==1.7.1
 psycopg2-binary==2.9.1
-rest_framework
+rest_framework==3.12.4
 whitenoise==5.2.0
