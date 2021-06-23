@@ -2,12 +2,9 @@ contextlib2==0.6.0.post1
 dj-database-url==0.5.0
 gunicorn==20.1.0
 json5==0.9.5
-jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
-path @ file:///tmp/build/80754af9/path_1598376507494/work
 pathlib2==2.3.5
 pathtools==0.1.2
 patsy==0.5.1
 pep8==1.7.1
 psycopg2-binary==2.9.1
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 whitenoise==5.2.0
