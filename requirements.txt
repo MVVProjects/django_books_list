@@ -1,6 +1,6 @@
 contextlib2==0.6.0.post1
 dj-database-url==0.5.0
-Django==3.1.2
+django==3.2.4
 gunicorn==20.1.0
 json5==0.9.5
 pathlib2==2.3.5
