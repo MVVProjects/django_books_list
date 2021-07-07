@@ -12,4 +12,5 @@ urlpatterns = [
           name='book-update'),
     path('book/<int:pk>/delete/', views.BookDelete.as_view(), 
           name='book-delete'),
+    path('books/search/', views.get_books, name='get_books'),
 ]

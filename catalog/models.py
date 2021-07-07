@@ -3,13 +3,14 @@ from django.urls import reverse
         
 class Book(models.Model):
     """Model representing a book."""
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=200, default='Your_book_title')
     author = models.CharField(max_length=200, default='John Doe')
-    publishing_date = models.DateField(default='1900-01-01')
-    isbn = models.CharField('ISBN', max_length=13, unique=True)
-    pages = models.PositiveSmallIntegerField()
-    cover = models.CharField(max_length=200)
+    publishing_date = models.DateField(default='1900')
+    isbn = models.CharField('ISBN', max_length=13, default='0123456789101')
+    pages = models.PositiveSmallIntegerField(default=1)
+    cover = models.CharField(max_length=200, default='Your_link_to_cover')
     language = models.CharField(max_length=20, default='English')
+    objects = models.Manager()
     
     class Meta:
         ordering = ['-id']
